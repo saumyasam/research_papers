@@ -409,7 +409,8 @@ This lab report successfully demonstrated a machine learning pipeline for predic
 
 ## References
 
-AmightyO. (n.d.). Chapter 8: Preparing Your Final Project for Submission. Machine Learning Using Python. Retrieved June 7, 2025, from https://amightyho.quarto.pub/machine-learning-using-python/Chapter_8.html#preparing-your-final-project-for-submission
+
+(Montoya, 2016) and (Itauma, 2024) Chapter 8: Preparing Your Final Project for Submission. Machine Learning Using Python. Retrieved June 7, 2025, from https://amightyho.quarto.pub/machine-learning-using-python/Chapter_8.html#preparing-your-final-project-for-submission
 
 Breiman, L. (2001). Random Forests. Machine Learning, 45(1), 5–32.
 
@@ -422,5 +423,6 @@ Draper, N. R., & Smith, H. (1998). Applied Regression Analysis (3rd ed.). John W
 Friedman, J. H. (2001). Greedy Function Approximation: A Gradient Boosting Machine. The Annals of Statistics, 29(5), 1189–1232.
 
 Jangra, M. (n.d.). Day1 ML Tutorial - House Price Prediction. Kaggle. Retrieved June 7, 2025, from https://www.kaggle.com/code/manjujangra/day1-ml-tutorial-house-price-prediction
-
 Smola, A. J., & Schölkopf, B. (2004). A Tutorial on Support Vector Regression. Statistics and Computing, 14(3), 199–222.
+
+Padhi S. (2025). GitHub - saumyasam/research_papers: House Price Prediction -Regression Analysis - ML Study. GitHub. https://github.com/saumyasam/research_papers.git
