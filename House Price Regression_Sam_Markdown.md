@@ -166,23 +166,20 @@ This study implemented and evaluated seven different regression models. Each mod
 
 The selected models are:
 
-1. Linear Regression: A simple linear model to establish a baseline.
+1. Polynomial Regression (degree=2): An extension of linear regression that models the relationship as an n-th degree polynomial. A degree of 2 was chosen to capture non-linear relationships.
 
-2. Polynomial Regression (degree=2): An extension of linear regression that models the relationship as an n-th degree polynomial. A degree of 2 was chosen to capture non-linear relationships.
+2. Decision Tree Regressor: A non-linear model that partitions the data based on feature values.
 
-3. Decision Tree Regressor: A non-linear model that partitions the data based on feature values.
+3. Random Forest Regressor: An ensemble method that builds multiple decision trees and averages their predictions to improve accuracy and reduce overfitting.
 
-4. Random Forest Regressor: An ensemble method that builds multiple decision trees and averages their predictions to improve accuracy and reduce overfitting.
+4. Gradient Boosting Regressor: Another powerful ensemble method that builds trees sequentially, where each tree corrects the errors of the previous one.
 
-5. Gradient Boosting Regressor: Another powerful ensemble method that builds trees sequentially, where each tree corrects the errors of the previous one.
+5. XGBRegressor: An optimized distributed gradient boosting library designed for speed and performance.
 
-6. XGBRegressor: An optimized distributed gradient boosting library designed for speed and performance.
-
-7. Support Vector Regressor (SVR): A robust model that finds a hyperplane to best fit the data within a specified margin.
+6. Support Vector Regressor (SVR): A robust model that finds a hyperplane to best fit the data within a specified margin.
 ```python
 # Initialize models with preprocessing pipeline
 models = {
-    'Linear Regression': Pipeline(steps=[('preprocessor', preprocessor), ('regressor', LinearRegression())]),
     'Polynomial Regression (degree=2)': Pipeline(steps=[('preprocessor', preprocessor), ('poly', PolynomialFeatures(degree=2)), ('regressor', LinearRegression())]),
     'Decision Tree Regressor': Pipeline(steps=[('preprocessor', preprocessor), ('regressor', DecisionTreeRegressor(random_state=42))]),
     'Random Forest': Pipeline(steps=[('preprocessor', preprocessor), ('regressor', RandomForestRegressor(random_state=42))]),
