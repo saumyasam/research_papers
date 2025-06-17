@@ -187,7 +187,11 @@ Future research could explore hyperparameter tuning for all models, feature engi
 
 ---
 
-## References
-(Montoya, 2016) and (Itauma, 2024) Chapter 8: Preparing Your Final Project for Submission. Machine Learning Using Python. Retrieved June 7, 2025, from https://amightyho.quarto.pub/machine-learning-using-python/Chapter_8.html#preparing-your-final-project-for-submission
-Dua, D., & Graff, C. (2017). UCI Machine Learning Repository. University of California, Irvine, School of Information and Computer Sciences. http://archive.ics.uci.edu/ml
-manjujangra. (n.d.). Day1 ML tutorial house price prediction [Code]. Kaggle. https://www.kaggle.com/code/manjujangra/day1-ml-tutorial-house-price-prediction
+### References
+
+- Montoya, 2016 & Itauma, 2024. *Chapter 8: Preparing Your Final Project for Submission*. Machine Learning Using Python. Retrieved June 7, 2025, from https://amightyho.quarto.pub/machine-learning-using-python/Chapter_8.html#preparing-your-final-project-for-submission
+
+- Dua, D., & Graff, C. (2017). *UCI Machine Learning Repository*. University of California, Irvine, School of Information and Computer Sciences. http://archive.ics.uci.edu/ml
+
+- manjujangra. (n.d.). *Day1 ML tutorial house price prediction* [Code]. Kaggle. https://www.kaggle.com/code/manjujangra/day1-ml-tutorial-house-price-prediction
+
