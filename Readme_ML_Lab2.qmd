@@ -6,7 +6,7 @@ Saumya Padhi
 Github: https://github.com/saumyasam/research_papers.git
 
 
-MGT-683-NW MSBA Directed Capstone Graduate Midland Online Summer 2024-2025, 
+MGT-665-NW Solv Probs W/ Machine Learning Graduate Midland Summer 2024-2025, 
 DeVos Graduate School, Northwood University 
 
 Dr. Itauma Itauma.
