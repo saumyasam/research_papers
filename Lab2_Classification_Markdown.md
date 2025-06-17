@@ -108,14 +108,19 @@ from sklearn.tree import DecisionTreeClassifier
 ---
 
 ## Model Evaluation
-The developed models were evaluated on the test set using the following metrics, which are standard for classification tasks (amightyo, n.d.):
-●	Accuracy: The proportion of correctly predicted instances out of the total instances.
-●	Precision: The proportion of true positive predictions among all positive predictions made by the model. It measures the exactness of the model.
-●	Recall (Sensitivity): The proportion of true positive predictions among all actual positive instances. It measures the completeness of the model.
-●	F1-Score: The harmonic mean of precision and recall, providing a single metric that balances both.
-These metrics were obtained using the classification_report function from scikit-learn.
-Results
+The developed models were evaluated on the test set using the following metrics, which are standard for classification tasks [1]:
+
+- **Accuracy**: The proportion of correctly predicted instances out of the total instances.
+- **Precision**: The proportion of true positive predictions among all positive predictions made by the model. It measures the exactness of the model.
+- **Recall (Sensitivity)**: The proportion of true positive predictions among all actual positive instances. It measures the completeness of the model.
+- **F1-Score**: The harmonic mean of precision and recall, providing a single metric that balances both.
+
+These metrics were obtained using the `classification_report` function from the `scikit-learn` library.
+
+### Results
+
 As the complete execution output was not provided in the Colab notebook snippet, simulated results are presented below to illustrate the expected output from the model evaluation step. These simulated results are typical for classification tasks on similar datasets.
+
 
 ### Simulated Classification Report for Logistic Regression
 
