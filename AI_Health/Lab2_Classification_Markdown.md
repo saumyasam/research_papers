@@ -25,17 +25,21 @@ This study focuses on leveraging machine learning algorithms to predict the pres
 
 ---
 
+
 ## Related Work
 
-The application of machine learning in healthcare, particularly for disease prediction, has gained substantial attention in recent years. Various studies have explored the use of classification algorithms to diagnose heart conditions, predict disease progression, and assess patient risk.
+The application of machine learning in healthcare, particularly for disease prediction, has gained substantial attention in recent years. Various studies have explored the use of classification algorithms to diagnose heart conditions, predict disease progression, and assess patient risk [1].
 
 For instance:
 
-- Logistic Regression is valued for its interpretability and efficiency for binary outcomes.
-- k-Nearest Neighbors is appreciated for its non-parametric nature and flexibility.
-- Decision Trees offer a hierarchical and interpretable approach, mimicking clinical decision-making.
+- **Logistic Regression** is valued for its interpretability and efficiency for binary outcomes, making it a longstanding tool in medical research [1].
+- **k-Nearest Neighbors (k-NN)** is appreciated for its non-parametric nature and flexibility, allowing it to adapt to complex data distributions [2].
+- **Decision Trees** offer a hierarchical and interpretable approach to classification, often mimicking clinical decision-making processes [1].
 
-This study contributes by systematically applying and comparing three fundamental classification algorithms on a well-known heart disease dataset.
+While extensive research exists on predicting heart disease, methodological choices such as data preprocessing, feature selection, and model comparison vary across studies. Tutorials and practical guides, such as those found on Kaggle, emphasize the importance of data preparation and model evaluation in machine learning workflows [3].
+
+This study contributes by systematically applying and comparing three fundamental classification algorithms on a well-known heart disease dataset under consistent conditions.
+
 
 ---
 
@@ -43,7 +47,7 @@ This study contributes by systematically applying and comparing three fundamenta
 
 ### Data Description and Acquisition
 
-The dataset used is the **Heart Disease Cleveland dataset** from the UCI Machine Learning Repository. It contains 303 instances with 13 features and a target variable.
+The dataset used is the **Heart Disease Cleveland dataset** from the UCI Machine Learning Repository [2]. It contains 303 instances with 13 features and a target variable.
 
 **Features include:**
 
@@ -108,7 +112,7 @@ from sklearn.tree import DecisionTreeClassifier
 ---
 
 ## Model Evaluation
-The developed models were evaluated on the test set using the following metrics, which are standard for classification tasks (amightyo, n.d.):
+The developed models were evaluated on the test set using the following metrics, which are standard for classification tasks According to Montoya and Itauma [1]:
 ●	Accuracy: The proportion of correctly predicted instances out of the total instances.
 ●	Precision: The proportion of true positive predictions among all positive predictions made by the model. It measures the exactness of the model.
 ●	Recall (Sensitivity): The proportion of true positive predictions among all actual positive instances. It measures the completeness of the model.
@@ -187,7 +191,11 @@ Future research could explore hyperparameter tuning for all models, feature engi
 
 ---
 
-## References
-(Montoya, 2016) and (Itauma, 2024) Chapter 8: Preparing Your Final Project for Submission. Machine Learning Using Python. Retrieved June 7, 2025, from https://amightyho.quarto.pub/machine-learning-using-python/Chapter_8.html#preparing-your-final-project-for-submission
-Dua, D., & Graff, C. (2017). UCI Machine Learning Repository. University of California, Irvine, School of Information and Computer Sciences. http://archive.ics.uci.edu/ml
-manjujangra. (n.d.). Day1 ML tutorial house price prediction [Code]. Kaggle. https://www.kaggle.com/code/manjujangra/day1-ml-tutorial-house-price-prediction
+**References**
+
+[1] Montoya, 2016 & Itauma, 2024. *Chapter 8: Preparing Your Final Project for Submission*. Machine Learning Using Python. Retrieved June 7, 2025, from https://amightyho.quarto.pub/machine-learning-using-python/Chapter_8.html#preparing-your-final-project-for-submission
+
+[2] Dua, D., & Graff, C. (2017). *UCI Machine Learning Repository*. University of California, Irvine, School of Information and Computer Sciences. [http://archive.ics.uci.eduml
+
+[3] manjujangra. (n.d.). *Day1 ML tutorial house price prediction* [Code]. Kaggle. https://www.kaggle.com/code/manjujangra/day1-ml-tutorial-house-price-prediction
+
